@@ -17,20 +17,20 @@ public class Stereo {
     }
 
     public String setCd() {
-        return "Stereo is set for CD input at " + location;
+        return "set for CD input";
     }
 
     public String setDvd() {
-        return "Stereo is set for DVD input at " + location;
+        return "set for DVD input";
     }
 
     public String setRadio() {
-        return "Stereo is set for Radio input at " + location;
+        return "set for Radio input";
     }
 
     public String setVolume(int volume) {
         this.volume = volume;
-        return "Stereo volume set to " + volume + " at " + location;
+        return "volume set to " + volume;
     }
 
 

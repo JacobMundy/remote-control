@@ -17,7 +17,7 @@ public class RemoteController {
     public boolean setup(@PathVariable int id, @RequestBody List<DeviceData> devices) {
         System.out.println(devices);
         remoteLoader.setup(id, devices);
-        return  true;
+        return true;
     }
 
     @GetMapping("/{id}/on/{slot}")
